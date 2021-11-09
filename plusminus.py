@@ -34,12 +34,11 @@ def plusMinus(arr):
     proportionzero = countzero/n
     proportionmin = countmin/n
         
-    print(proportionplus)
-    print(proportionmin)
-    print(proportionzero)
+    print(format(proportionplus, ".5f"))
+    print(format(proportionmin, ".5f"))
+    print(format(proportionzero, ".5f"))
 
-    
-    
+        
 if __name__ == '__main__':
     n = int(input().strip())
 
